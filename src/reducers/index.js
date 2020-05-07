@@ -11,6 +11,6 @@ const countReducer = (value =0 , action)=>{
 }
 
 
-export default combineRedecuders({
+export default combineReducers({
     count: countReducer
 });
